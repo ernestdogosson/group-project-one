@@ -23,7 +23,6 @@ header {
 	font-size: 2.5rem;
 	margin: 0;
 	font-family: 'Kaushan Script', cursive;
-
 	color: #ff6b6b;
 }
 .navigation {
@@ -56,8 +55,12 @@ li .nav-link {
 }
 
 .nav-link:hover {
-	background-color: #ff6b6b;
+	background: #ff6b6b;
 	color: #0d1b2a;
+}
+
+.nav-link:active {
+	background-color: #bb2323;
 }
 
 /*
