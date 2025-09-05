@@ -1,0 +1,74 @@
+header {
+	height: 70px;
+	border-bottom: solid 1px;
+	border-image: linear-gradient(to right, #ffd93d, #ff6b6b) 1;
+}
+
+.head {
+	width: 100%;
+	max-width: 1065px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.logo,
+.navigation {
+	flex: 1;
+}
+
+.logo-text {
+	font-size: 2.5rem;
+	margin: 0;
+	font-family: 'Kaushan Script', cursive;
+
+	color: #ff6b6b;
+}
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav {
+	max-width: 400px;
+	width: 100%;
+}
+
+ul {
+	font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	list-style: none;
+	width: 100%; /* Add this line */
+}
+
+li .nav-link {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.25s;
+	padding: 0.8em;
+	border-radius: 0.2em;
+}
+
+.nav-link:hover {
+	background-color: #ff6b6b;
+	color: #0d1b2a;
+}
+
+/*
+ul li:nth-child(odd) .nav-link:hover {
+	color: #000;
+	background-color: #ff6b6b;
+}
+
+
+ul li:nth-child(even) .nav-link:hover {
+	color: #000;
+	background-color: #ffd93d;
+}
+*/
