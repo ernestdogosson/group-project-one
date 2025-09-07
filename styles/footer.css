@@ -1,0 +1,37 @@
+footer {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: solid 1px;
+	border-image: linear-gradient(to left, #ffd93d, #ff6b6b) 1;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-container {
+	display: flex;
+	width: 100%;
+	max-width: 1065px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.fa-brands {
+	font-size: 24px;
+}
+
+.foot {
+	flex: 1;
+}
+
+.left.logo {
+	font-size: 8px;
+}
+
+.right {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
