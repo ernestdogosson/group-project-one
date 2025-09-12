@@ -1,8 +1,83 @@
-/*
-
+/* Shop story */
 .about-us__container {
-	position: relative;
-	z-index: 9999;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 500px;
+	color: #0d1b2a;
+}
 
-	opacity: 1;
+.page__title {
+	font-size: 56px;
+	margin-bottom: 50px;
+	font-style: italic;
+}
+
+.sub {
+	font-size: 43px;
+	font-style: italic;
+}
+
+.shop-story {
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.story__text {
+	line-height: 1.6;
+}
+
+.story__media .story__img {
+	max-height: 400px;
+	max-width: 300px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+}
+
+/* Our artist */
+.our__artist {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.our__artist-content {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section__title {
+	text-align: center;
+}
+
+.artist__card {
+	max-width: 267px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.card__img {
+	width: 267px;
+	height: 250px;
+
+	border-radius: 10px 10px 0 0;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card__description {
+	padding: 10px 20px;
+	line-height: 1.6;
 }

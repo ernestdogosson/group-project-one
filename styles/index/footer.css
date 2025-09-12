@@ -3,16 +3,16 @@
 	font-size: 12px;
 	border-top: solid 1px;
 	border-image: linear-gradient(to left, #ffd93d, #ff6b6b) 1;
-	height: 100px;
+	height: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 40px 20px;
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	backdrop-filter: blur(10px);
+	background-color: #0d1b2a;
 }
 
 .footer__container {
