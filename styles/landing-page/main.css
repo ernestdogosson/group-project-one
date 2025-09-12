@@ -1,0 +1,70 @@
+.main__content {
+	background-image: url(/img/home-background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.main__content::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	filter: blur(8px);
+	z-index: -1;
+}
+
+.hero__section {
+	width: 100%;
+	height: 100vh;
+	max-width: 825px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.hero__title {
+	font-family: 'Kaushan Script', Roboto, sans-serif;
+	font-size: 64px;
+	color: #ff6b6b;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.tag__line {
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+	backdrop-filter: blur(2px);
+}
+
+.cta-button {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	background: linear-gradient(to right, #ff6b6b, #ffd93d);
+	border: none;
+	border-radius: 0.2em;
+	color: #0d1b2a;
+	padding: 1rem 2.5rem;
+	cursor: pointer;
+	transition: all 0.25s;
+	font-size: 16px;
+}
+
+.cta-button:hover {
+	background: linear-gradient(to right, #ff8989, #ffe164);
+	transform: translateY(-2px);
+}
+
+.cta-button:active {
+	background: linear-gradient(to right, #ff6b6b, #ffd93d);
+	transform: translateY(0);
+}
