@@ -3,7 +3,7 @@
 	font-size: 12px;
 	border-top: solid 1px;
 	border-image: linear-gradient(to left, #ffd93d, #ff6b6b) 1;
-	height: 150px;
+	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
