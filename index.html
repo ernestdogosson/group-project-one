@@ -24,46 +24,108 @@
 		/>
 	</head>
 	<body>
-		<header>
-			<div class="head">
-				<div class="logo"><h2 class="logo-text">logo</h2></div>
+		<header class="site__header">
+			<div class="header__container">
+				<div class="site__logo">
+					<h2 class="logo__text">Ink & soul</h2>
+				</div>
 				<div class="navigation">
-					<nav>
-						<ul>
-							<li><a href="#home" class="nav-link">Home</a></li>
-							<li><a href="#" class="nav-link">About</a></li>
-							<li><a href="#" class="nav-link">Gallery</a></li>
-							<li><a href="#" class="nav-link">Contact Us</a></li>
-						</ul>
+					<nav class="main__navigation">
+						<div class="nav__menu">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a href="#home" class="nav__link">Home</a>
+								</li>
+								<li class="nav__item">
+									<a href="#about" class="nav__link">About</a>
+								</li>
+								<li class="nav__item">
+									<a href="#gallery" class="nav__link">Gallery</a>
+								</li>
+								<li class="nav__item">
+									<a href="#contact" class="nav__link">Contact</a>
+								</li>
+							</ul>
+						</div>
 					</nav>
 				</div>
 			</div>
 		</header>
-		<main>
-			<div class="hero">
-				<h1 class="title">Ink & Soul tattoo studio</h1>
-				<p class="tag-line">
+
+		<main class="main__content" id="home">
+			<section class="hero__section">
+				<h1 class="hero__title">Ink & Soul tattoo studio</h1>
+				<p class="tag__line">
 					Where art meets skin. Premium tattoo artistry in a welcoming,
 					professional environment.
 				</p>
-				<button class="booking-btn">Book your session</button>
-			</div>
+				<button class="cta-button" type="button">Book your session</button>
+			</section>
 		</main>
-		<footer>
-			<div class="footer-container">
-				<div class="foot left">
-					<p class="left logo-text">logo</p>
-					<p>Address: Outside Street 12B, 1795. Helsingborg</p>
+
+		<footer class="site__footer">
+			<div class="footer__container">
+				<div class="footer__section footer__logo">
+					<h3 class="logo__text">Ink & Soul</h3>
+					<address>
+						<p>Outside Street 12B, 1795<br />Helsingborg, Sweden</p>
+					</address>
 				</div>
-				<div class="foot middle">
-					<p>Phone Number: +1 (0) 234509876</p>
-					<p>Copyright</p>
+
+				<div class="footer__section footer__contact">
+					<p><strong>Phone:</strong> +1 (0) 234 509 876</p>
+					<p>&copy; 2024 Ink & Soul Tattoo Studio</p>
 				</div>
-				<div class="foot right">
-					<i class="fa-brands fa-facebook"></i>
-					<i class="fa-brands fa-square-instagram"></i>
-					<i class="fa-brands fa-tiktok"></i>
-					<i class="fa-brands fa-square-x-twitter"></i>
+
+				<div class="footer__section footer__social">
+					<nav class="social__navigation">
+						<ul class="social__nav__list">
+							<li class="social__nav__item">
+								<a
+									href="https://facebook.com"
+									class="social__link facebook"
+									aria-label="Follow us on Facebook"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fab fa-facebook-f" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social__nav__item">
+								<a
+									href="https://instagram.com"
+									class="social__link instagram"
+									aria-label="Follow us on Instagram"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fab fa-instagram" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social__nav__item">
+								<a
+									href="https://tiktok.com"
+									class="social__link tiktok"
+									aria-label="Follow us on TikTok"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fab fa-tiktok" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social__nav__item">
+								<a
+									href="https://twitter.com"
+									class="social__link twitter"
+									aria-label="Follow us on Twitter"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fab fa-x-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</footer>

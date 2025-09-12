@@ -11,6 +11,8 @@ html {
 body {
 	background-color: #0d1b2a;
 	color: #fff;
+	margin: 0;
+	padding: 0;
 }
 
 p {
