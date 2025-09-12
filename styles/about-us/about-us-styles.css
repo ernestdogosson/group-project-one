@@ -9,7 +9,7 @@
 	align-items: center;
 	padding: 0 20px;
 	font-family: 'Roboto', sans-serif;
-	padding-bottom: 500px;
+	padding-bottom: 50px;
 	color: #0d1b2a;
 }
 
@@ -49,6 +49,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	margin-bottom: 50px;
 }
 
 .our__artist-content {
@@ -56,6 +57,7 @@
 	width: 100%;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 .section__title {
@@ -65,7 +67,7 @@
 .artist__card {
 	max-width: 267px;
 	border-radius: 10px;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .card__img {
@@ -80,4 +82,33 @@
 .card__description {
 	padding: 10px 20px;
 	line-height: 1.6;
+}
+
+/* Info */
+.info {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	color: #0d1b2a;
+}
+
+.info__card {
+	padding: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	flex: 1;
+	border-radius: 10px;
+}
+
+.card__title {
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+}
+
+.info__description {
+	line-height: 1.6;
+}
+.info__description ul {
+	padding-left: 10px;
 }
