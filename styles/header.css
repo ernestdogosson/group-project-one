@@ -60,14 +60,15 @@
 	text-decoration: none;
 	cursor: pointer;
 	transition: all 0.25s;
-	padding: 0.6em;
-	border-radius: 0.4em;
-	display: block;
+	padding: 0 20px;
 }
 
 .nav__link:hover {
-	background: #ff6b6b;
-	color: #0d1b2a;
+	color: #ff6b6b;
+}
+
+.nav__item:hover {
+	transform: scale(1.2);
 }
 
 .nav__link:active {
