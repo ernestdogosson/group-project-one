@@ -3,22 +3,18 @@
 	font-size: 12px;
 	border-top: solid 1px;
 	border-image: linear-gradient(to left, #ffd93d, #ff6b6b) 1;
-	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 40px 20px;
-	position: sticky;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	background-color: #0d1b2a;
+	padding: 20px;
 }
 
 .footer__container {
 	display: flex;
 	width: 100%;
 	max-width: 1065px;
+	height: 100%;
 	margin: 0 auto;
 	align-items: center;
 	justify-content: space-between;
@@ -30,7 +26,7 @@
 }
 
 .footer__logo .logo__text {
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	margin-bottom: 10px;
 }
 
