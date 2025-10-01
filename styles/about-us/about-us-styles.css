@@ -61,6 +61,11 @@
 	margin-bottom: 50px;
 }
 
+.artist__name {
+	text-align: center;
+	color: inherit;
+}
+
 .section__title {
 	text-align: center;
 }
