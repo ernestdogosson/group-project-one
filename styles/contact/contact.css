@@ -1,12 +1,12 @@
 .contact__container {
 	align-items: center;
 	color: #fff;
+	width: 100%;
+	height: calc(100vh - 200px);
+	display: flex;
+	align-items: center;
 }
 
-.contact__media {
-	width: 600px;
-	height: 500px;
-}
 .contact {
 	max-width: 500px;
 	width: 100%;

@@ -7,14 +7,14 @@
 	justify-content: center;
 	align-items: center;
 	background-color: #0d1b2a;
-	padding: 20px;
+	padding: 1.75rem;
 }
 
 .footer__container {
 	display: flex;
 	width: 100%;
 	max-width: 1065px;
-	height: 100%;
+
 	margin: 0 auto;
 	align-items: center;
 	justify-content: space-between;
